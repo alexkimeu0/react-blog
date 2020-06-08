@@ -4,4 +4,38 @@
   grid-gap: 0.5rem;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
+}
+
+@media (max-width: 1150px) {
+  .posts-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .posts-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .posts-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
 }
