@@ -1,0 +1,25 @@
+.post-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-post {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.post-heading {
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
